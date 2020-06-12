@@ -1,0 +1,317 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif; }
+
+.content {
+  width: 90%;
+  max-width: 1000px;
+  overflow: hidden;
+  margin: 0 auto; }
+
+header {
+  background: url("../img/bg.jpg"); }
+  header .content {
+    position: relative;
+    height: 700px; }
+    header .content .menu {
+      margin: 70px 0;
+      text-align: right; }
+      header .content .menu nav a {
+        position: relative;
+        font-size: 23px;
+        padding: 10px;
+        color: white;
+        text-decoration: none; }
+        header .content .menu nav a:hover {
+          text-decoration: underline; }
+    header .content .texts {
+      position: absolute;
+      top: 50%;
+      margin-top: -52px;
+      left: 50px;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 15px; }
+      header .content .texts h1 {
+        color: white;
+        font-size: 52px;
+        font-weight: 300; }
+      header .content .texts h2 {
+        color: white;
+        font-size: 40px;
+        font-weight: 300;
+        font-style: italic; }
+
+.main {
+  background: url(../img/bg-textura.png);
+  background-repeat: repeat; }
+  .main .about-us .content {
+    position: relative;
+    overflow: visible; }
+    .main .about-us .content .photo {
+      width: 80%;
+      position: absolute;
+      left: 0;
+      top: -50px; }
+      .main .about-us .content .photo img {
+        vertical-align: top;
+        width: 100%;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); }
+    .main .about-us .content .texts {
+      width: 50%;
+      background: white;
+      float: right;
+      padding: 40px;
+      position: relative;
+      top: 200px;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35); }
+      .main .about-us .content .texts h2 {
+        font-size: 32px;
+        font-weight: 600; }
+      .main .about-us .content .texts p {
+        font-size: 16px;
+        line-height: 28px; }
+  .main .menu {
+    padding-top: 340px;
+    padding-bottom: 100px; }
+    .main .menu .content {
+      width: 100%;
+      text-align: center; }
+      .main .menu .content .title {
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 50px; }
+      .main .menu .content .menu-content1 {
+        border: 1px solid black;
+        padding: 10px; }
+      .main .menu .content .menu-content2 {
+        padding: 10px;
+        border: 1px solid black;
+        overflow: hidden; }
+        .main .menu .content .menu-content2 article {
+          width: 50%;
+          float: left;
+          padding: 20px; }
+          .main .menu .content .menu-content2 article .title {
+            font-size: 35px; }
+          .main .menu .content .menu-content2 article .dishes {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 4px dotted black; }
+            .main .menu .content .menu-content2 article .dishes .name {
+              font-size: 20px;
+              float: left; }
+            .main .menu .content .menu-content2 article .dishes .price {
+              float: right;
+              font-size: 20px; }
+            .main .menu .content .menu-content2 article .dishes .description {
+              clear: both;
+              color: grey;
+              text-align: left; }
+          .main .menu .content .menu-content2 article .drinks {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 4px dotted black; }
+            .main .menu .content .menu-content2 article .drinks .name {
+              font-size: 20px;
+              float: left; }
+            .main .menu .content .menu-content2 article .drinks .price {
+              float: right;
+              font-size: 20px; }
+            .main .menu .content .menu-content2 article .drinks .description {
+              clear: both;
+              color: grey;
+              text-align: left; }
+  .main .gallery {
+    overflow: hidden; }
+    .main .gallery .image {
+      width: 25%;
+      float: left; }
+      .main .gallery .image img {
+        width: 100%;
+        vertical-align: top;
+        opacity: 0.5; }
+        .main .gallery .image img:hover {
+          transition: all 3s ease;
+          opacity: 1; }
+  .main .ubication {
+    padding: 60px 0;
+    background: white; }
+    .main .ubication .content {
+      text-align: center; }
+      .main .ubication .content .title {
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 50px; }
+      .main .ubication .content .direction {
+        width: 50%;
+        float: left;
+        text-align: left; }
+      .main .ubication .content .hours {
+        width: 50%;
+        float: right; }
+        .main .ubication .content .hours .weekdays {
+          float: left; }
+        .main .ubication .content .hours .weekends {
+          float: right; }
+  .main .map {
+    width: 100%; }
+    .main .map iframe {
+      width: 100%;
+      max-height: 600px;
+      vertical-align: top; }
+  .main .formulario {
+    padding: 60px;
+    background: white; }
+    .main .formulario .content {
+      text-align: center; }
+      .main .formulario .content h2 {
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 50px; }
+      .main .formulario .content form {
+        padding: 20px; }
+        .main .formulario .content form input[type="text"],
+        .main .formulario .content form input[type="email"],
+        .main .formulario .content form textarea {
+          margin: 0 auto;
+          display: block;
+          width: 50%;
+          padding: 20px;
+          margin-bottom: 20px;
+          border-radius: 3px;
+          border: 1px solid #776c08;
+          font-size: 16px; }
+        .main .formulario .content form textarea {
+          margin-bottom: 60px;
+          min-height: 120px;
+          max-height: 300px;
+          min-width: 50%;
+          max-width: 50%; }
+        .main .formulario .content form .error {
+          margin: 0 auto;
+          text-align: left;
+          width: 40%;
+          display: none;
+          background: #8d8113a1;
+          color: white;
+          font-size: 18px; }
+        .main .formulario .content form input[type="submit"] {
+          width: 200px;
+          margin: 0 auto;
+          padding: 20px;
+          border: 1px solid #86632e;
+          color: #bb7814;
+          background: none;
+          cursor: pointer;
+          border-radius: 3px;
+          font-size: 18px; }
+          .main .formulario .content form input[type="submit"]:hover {
+            background: #a7680b;
+            color: white; }
+
+footer {
+  background: black;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center; }
+
+@media screen and (max-width: 800px) {
+  .main .about-us .content .photo {
+    width: 100%;
+    position: static; }
+
+  .main .about-us .content .texts {
+    width: 100%;
+    position: static; }
+
+  .main .menu .content .menu-content2 article {
+    width: 100%; }
+
+  .main .gallery .image {
+    width: 50%; }
+
+  .main .ubication .content .direction,
+  .main .ubication .content .hours {
+    text-align: center;
+    width: 100%; }
+
+  .main .ubication .content .hours .weekdays,
+  .main .ubication .content .hours .weekends {
+    float: none; }
+
+  .main .map {
+    margin: 0 auto;
+    width: 80%; }
+
+  .main .formulario {
+    padding: 10px; }
+
+  .main .formulario .content form input[type="text"],
+  .main .formulario .content form input[type="email"],
+  .main .formulario .content form textarea {
+    width: 90%; }
+
+  .main .formulario .content form textarea {
+    margin-bottom: 10px;
+    min-height: 120px;
+    max-height: 300px;
+    min-width: 90%;
+    max-width: 90%; } }
+@media screen and (max-width: 500px) {
+  header {
+    height: 400px; }
+
+  header .content .menu nav a {
+    position: static;
+    font-size: 16px; }
+
+  .main .about-us .content .photo {
+    margin-top: 20px; }
+
+  header .content .texts {
+    position: static; }
+
+  header .content .texts h1 {
+    font-size: 20px; }
+
+  .main .about-us .content .texts h2 {
+    font-size: 20px; }
+
+  .main .about-us .content .texts p {
+    font-size: 14px; }
+
+  .main .menu .content .menu-content2 article {
+    width: 100%; }
+
+  .main .gallery .image {
+    width: 100%; }
+
+  .main .ubication .content .direction,
+  .main .ubication .content .hours {
+    text-align: center;
+    width: 100%; }
+
+  .main .ubication .content .hours .weekdays,
+  .main .ubication .content .hours .weekends {
+    float: none; }
+
+  .main .formulario {
+    padding: 10px; }
+
+  .main .formulario .content form input[type="text"],
+  .main .formulario .content form input[type="email"],
+  .main .formulario .content form textarea {
+    width: 90%; }
+
+  .main .formulario .content form textarea {
+    margin-bottom: 10px;
+    min-height: 120px;
+    max-height: 300px;
+    min-width: 90%;
+    max-width: 90%; } }
+
+/*# sourceMappingURL=estilos.css.map */
